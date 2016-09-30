@@ -1,0 +1,26 @@
+{
+    "name": "bison",
+    "displayName": "Bison",
+    "description": "Bison & Yacc Syntax Highlighting",
+    "version": "0.0.1",
+    "publisher": "luniclynx",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bison",
+            "aliases": ["Bison", "bison"],
+            "extensions": [".y"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bison",
+            "scopeName": "source.bison",
+            "path": "./syntaxes/bison.tmLanguage"
+        }]
+    }
+}
