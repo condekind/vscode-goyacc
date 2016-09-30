@@ -4,6 +4,9 @@
     "description": "Bison & Yacc Syntax Highlighting",
     "version": "0.0.1",
     "publisher": "luniclynx",
+    "repository": {
+        "url": "https://github.com/LunicLynx/vscode-bison.git"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
