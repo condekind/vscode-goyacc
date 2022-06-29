@@ -2,7 +2,7 @@
     "name": "goyacc",
     "displayName": "goyacc",
     "description": "Yacc Syntax Highlighting with Golang instead of C (goyacc)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "condekind",
     "repository": {
         "url": "https://github.com/condekind/vscode-goyacc"
@@ -15,15 +15,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "bison",
-            "aliases": ["Bison", "bison"],
+            "id": "goyacc",
+            "aliases": ["goyacc"],
             "extensions": [".y", ".go.y"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "bison",
-            "scopeName": "source.bison",
-            "path": "./syntaxes/bison.tmLanguage"
+            "language": "goyacc",
+            "scopeName": "source.goyacc",
+            "path": "./syntaxes/goyacc.tmLanguage"
         }]
     }
 }

@@ -7,18 +7,18 @@
 		<string>y</string>
 	</array>
 	<key>name</key>
-	<string>Bison</string>
+	<string>goyacc</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>^%\{</string>
+			<string>^%\{$</string>
 			<key>contentName</key>
 			<string>source.go</string>
 			<key>end</key>
-			<string>%\}</string>
+			<string>^%\}$</string>
 			<key>name</key>
-			<string>meta.prologue.bison</string>
+			<string>meta.prologue.goyacc</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -26,14 +26,6 @@
 					<string>source.go</string>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>^(?!%%$)</string>
-			<key>end</key>
-			<string>^(?=%%$)</string>
-			<key>name</key>
-			<string>meta.declarations.bison</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -46,7 +38,7 @@
 					<key>begin</key>
 					<string>^(?!%%$)</string>
 					<key>contentName</key>
-					<string>meta.rules.bison</string>
+					<string>meta.rules.goyacc</string>
 					<key>end</key>
 					<string>^(?=%%$)</string>
 					<key>patterns</key>
@@ -61,7 +53,7 @@
 					<key>begin</key>
 					<string>^%%$</string>
 					<key>contentName</key>
-					<string>meta.epilogue.bison</string>
+					<string>meta.epilogue.goyacc</string>
 					<key>end</key>
 					<string>$.^</string>
 					<key>patterns</key>
@@ -87,7 +79,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.bison</string>
+	<string>source.goyacc</string>
 	<key>uuid</key>
 	<string>D16F18B3-46D8-4468-BCE4-5B5DE8EBB835</string>
 </dict>
