@@ -19,4 +19,6 @@ This will generate `goyacc-{VERSION}.vsix`:
 vsce package
 ```
 
+### To install the package:
+
 Inside vscode, open the command palette (default `ctrl+shift+p`) type/run "install from vsix" and choose the generated file
