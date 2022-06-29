@@ -14,7 +14,7 @@
 			<key>begin</key>
 			<string>^%\{</string>
 			<key>contentName</key>
-			<string>source.c</string>
+			<string>source.go</string>
 			<key>end</key>
 			<string>%\}</string>
 			<key>name</key>
@@ -23,7 +23,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>source.c</string>
+					<string>source.go</string>
 				</dict>
 			</array>
 		</dict>
@@ -53,7 +53,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>source.c</string>
+							<string>source.go</string>
 						</dict>
 					</array>
 				</dict>
@@ -72,12 +72,12 @@
 							<key>end</key>
 							<string>$.^</string>
 							<key>name</key>
-							<string>source.c</string>
+							<string>source.go</string>
 							<key>patterns</key>
 							<array>
 								<dict>
 									<key>include</key>
-									<string>source.c</string>
+									<string>source.go</string>
 								</dict>
 							</array>
 						</dict>
@@ -89,6 +89,6 @@
 	<key>scopeName</key>
 	<string>source.bison</string>
 	<key>uuid</key>
-	<string>1AA6D027-D1AF-4868-951D-1634BD88D910</string>
+	<string>D16F18B3-46D8-4468-BCE4-5B5DE8EBB835</string>
 </dict>
 </plist>
